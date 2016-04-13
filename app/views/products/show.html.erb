@@ -7,3 +7,10 @@
 <h3 class="text-center">
   Url: <%= @product.url %>
 </h3>
+
+<p class="text-center">
+  <%= link_to "Edit", edit_product_path(@product), class: "btn btn-warning" %>
+  <%= link_to "Supprimer", product_path(@product), method: :delete, class: "btn btn-danger" %>
+  <%= link_to "Revenir à la liste", products_path, class: "btn btn-primary" %>
+
+</p>

@@ -1,0 +1,5 @@
+      <%= simple_form_for @product do |f| %>
+        <%= f.input :name, placeholder: "Kudoz", label: "Which products?" %>
+        <%= f.input :url, placeholder: "http://www.monsite.com", label: "URL?"  %>
+        <%= f.button :submit, "Ok", class: "btn btn-primary" %>
+      <% end %>
