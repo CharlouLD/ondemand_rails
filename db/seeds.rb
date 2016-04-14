@@ -11,3 +11,4 @@ Product.destroy_all
 Product.create!(name: "Kudoz", url: "http://getkudoz.com", tagline: "Tinder for jobs search")
 Product.create!(name: "uSlide", url: "http://uslide.io", tagline: "YouTube sucks")
 Product.create!(name: "Marcel", url: "http://www.marcel.cab", tagline: "Votre chauffeur")
+Product.create!(name: "Golfner-App", url: "http://www.golfner-app.com", tagline: "Play with someone like you")

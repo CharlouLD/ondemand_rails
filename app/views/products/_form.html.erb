@@ -2,5 +2,6 @@
         <%= f.input :name, placeholder: "Kudoz", label: "Which products?" %>
         <%= f.input :url, placeholder: "http://www.monsite.com", label: "URL?" %>
         <%= f.input :tagline, placeholder: "tinder for job", label: "Which tagline?" %>
+        <%= f.input :category, collection: ["tech", "education", "design", "sport"], prompt: "Which category?" %>
         <%= f.button :submit, "Ok", class: "btn btn-primary" %>
       <% end %>
